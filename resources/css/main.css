@@ -1,0 +1,29 @@
+/* ---------------------------------------------------------------------- */
+/*	Import fonts
+/* ---------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500,600,700,800,900);
+
+/* ---------------------------------------------------------------------- */
+/*	Basic Elements & Classes
+/* ---------------------------------------------------------------------- */
+
+.btn-light-grey {
+	background-color: #999;
+	border-color: #8c8c8c;
+	color: #ffffff;
+}
+.btn-light-grey:hover, .btn-light-grey:focus, .btn-light-grey:active, .btn-light-grey.active {
+	background-color: #8c8c8c;
+	border-color: #808080;
+	color: #ffffff;
+}
+.btn-light-grey.disabled:hover, .btn-light-grey.disabled:focus, .btn-light-grey.disabled:active, .btn-light-grey.disabled.active, .btn-light-grey[disabled]:hover, .btn-light-grey[disabled]:focus, .btn-light-grey[disabled]:active, .btn-light-grey[disabled].active, fieldset[disabled] .btn-light-grey:hover, fieldset[disabled] .btn-light-grey:focus, fieldset[disabled] .btn-light-grey:active, fieldset[disabled] .btn-light-grey.active {
+	background-color: #999;
+	border-color: #999;
+	color: #ffffff;
+}
+
+
+
+
